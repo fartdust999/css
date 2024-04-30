@@ -1,0 +1,155 @@
+h1{
+    color: rgb(115, 29, 255);
+    background-color: rgb(236, 55, 23);
+}
+.box-1{
+    background-color: darkorchid;border: 5px rgb(224, 42, 10) solid;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: tahoma;
+    font: weight 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing:0.2em;
+    word-spacing: 1em;
+}
+/*
+*{
+}
+*/
+body{margin: 0;}
+.container { 
+    width: 960px;
+}
+p{margin-top: 5px;
+margin-bottom:5px;
+margin-left: 10px;
+margin-right: 10px 
+;}
+.box-2{
+    border: 3px dotted;
+    padding: 20px;
+    margin: 20px 0;
+}
+.categories {
+    border: 1px #ccc sold;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+.categories h2 {
+    text-align:center
+}
+.categories ul{
+    padding: 0;
+    list-style:none;
+}
+A {
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color:red;
+}
+a:active {
+    color:green;
+}
+A:visited {
+    color:yellow;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image:url('../images/check.png') ;
+}
+<div style="margin-top:500px;"></div>
+my-form {
+    padding: 20px;
+    }
+.my-form   .form-group {
+padding-botom: 15px;
+}
+my-form  label {
+display: block;
+}
+.my-form   input {
+padding: 8px;
+width: 100%;
+}
+my-form textarea {
+padding: 8px;
+width: 100%;
+}
+[type="text"]  {padding: 8px;
+width: 100%;
+}
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10 px 15px;
+    border: none;
+    }
+.button:hover {
+background: red;
+color: #fff;
+}
+.block {
+    float: left;
+    width: 33.3%;
+    }
+    .block {
+        float: left;
+        width: 33.3%;
+        border: 1px solid #333;
+        padding: 10px;
+        box-sizing: border-box;
+        }
+        .clr {
+            clear: both;
+            }
+            #main-block {
+                float: left;
+                width: 70%;
+                padding: 15px
+                box-sizing: border-box;
+                }    
+                #sidebar {
+                    float: right;
+                    width: 30%;
+                    background-color: #333;
+                    color: #fff;
+                    padding: 15px
+                    box-sizing: border-box;
+                    }
+                    .p-box {
+                        width: 800px;
+                        height: 500px;
+                        border: 1px  solid  #000;
+                        margin-top: 30px;
+                        position: relative;
+                        }  
+                        .p-box  h1 {
+                            position: absolute;
+                            top: 100px;
+                            left: 200px;
+
+                            }
+                            .p-box  h2 {
+                        positon: absolute;
+                        bottom: 40px;
+                            right: 100px;
+                        background-image:url('/bgimage.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 100px  200px;
+                        background-repeat: center  top;           }
+                            .fix-me {
+                                    position: fixed;
+                                    top: 400px;
+                                    }
+                                    .my-list  li:first-child {
+                                        background: red;
+                                        }
+                                 
+            
+        
